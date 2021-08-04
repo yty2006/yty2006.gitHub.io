@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>(⊙o⊙)…</title>
+    <url>/2020/08/23/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>(⊙o⊙)…</p>
+]]></content>
+      <categories>
+        <category>其他</category>
+      </categories>
+      <tags>
+        <tag>其他</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>解决VMware Unlocker无法下载darwin.iso的问题</title>
     <url>/2021/08/04/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>之前装了Windows11,结果搞黑苹果虚拟机时发现Apple Mac OS X选项没了…</p>
@@ -31,18 +43,6 @@
       </categories>
       <tags>
         <tag>黑苹果</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>(⊙o⊙)…</title>
-    <url>/2020/08/23/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>(⊙o⊙)…</p>
-]]></content>
-      <categories>
-        <category>其他</category>
-      </categories>
-      <tags>
-        <tag>其他</tag>
       </tags>
   </entry>
 </search>
