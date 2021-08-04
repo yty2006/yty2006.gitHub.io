@@ -6,7 +6,7 @@
   <link href="https://yty2006.github.io/atom.xml" rel="self"/>
   
   <link href="https://yty2006.github.io/"/>
-  <updated>2020-10-07T03:47:22.314Z</updated>
+  <updated>2021-08-04T11:01:56.315Z</updated>
   <id>https://yty2006.github.io/</id>
   
   <author>
@@ -17,9 +17,33 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>解决VMware Unlocker无法下载darwin.iso的问题</title>
+    <link href="https://yty2006.github.io/2021/08/04/"/>
+    <id>https://yty2006.github.io/2021/08/04/</id>
+    <published>2021-08-04T09:47:32.000Z</published>
+    <updated>2021-08-04T11:01:56.315Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>之前装了Windows11,结果搞黑苹果虚拟机时发现Apple Mac OS X选项没了…</p><p>于是我用最快速度找到<strong>MK-unlocker</strong>并下载</p><p>然后在Getting VMware Tools中pip下载超时</p><p>重试后一直找不到正确地址</p><p><img src="/img/pic-1.png" alt="pic-1"></p><p>迫不得已,我亲自到网站找到了它的下载方式↓</p><p><img src="/img/pic-2.png" alt="image"></p><p>经过无数努力和尝试最终找到VMware Fusion的最新软件包</p><p><img src="/img/pic-3.png" alt="image-20210804175755306"></p><p>下载后,我发现MK-unlocker突然好使了</p><p><em>下载好的tools文件夹如图</em></p><p><img src="/img/pic-4.png" alt="image-20210804180030561"></p><p>进软件包一搜,就会发现实际上就用这么几个文件</p><p><img src="/img/pic-5.png" alt="image-20210804180345558"></p><p>就这两个镜像文件有用</p><p><img src="/img/pic-6.png" alt="image-20210804180418057"></p><p>把文件解压到tools文件夹就可以正常使用</p><p>凭借微薄的Python基础稍微改动gettools.py弄的unlocker</p><p>如有需要提供修改后unlocker下载:</p><p><a href="https://wwr.lanzoui.com/ieIShs89vsj">蓝奏云</a></p><p>备用<a href="http://yty2006.top:5212/s/Wwcd">cloudreve</a> 密码:unlocker</p><p><del><strong>是时候清理一下网站落的灰了[手动狗头]</strong></del></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="黑苹果" scheme="https://yty2006.github.io/categories/%E9%BB%91%E8%8B%B9%E6%9E%9C/"/>
+    
+    
+    <category term="黑苹果" scheme="https://yty2006.github.io/tags/%E9%BB%91%E8%8B%B9%E6%9E%9C/"/>
+    
+  </entry>
+  
+  <entry>
     <title>(⊙o⊙)…</title>
-    <link href="https://yty2006.github.io/o/"/>
-    <id>https://yty2006.github.io/o/</id>
+    <link href="https://yty2006.github.io/2020/08/23/"/>
+    <id>https://yty2006.github.io/2020/08/23/</id>
     <published>2020-08-23T15:11:45.000Z</published>
     <updated>2020-10-07T03:47:22.314Z</updated>
     

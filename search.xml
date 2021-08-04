@@ -1,32 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>(⊙o⊙)…</title>
-      <link href="o/"/>
-      <url>o/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>(⊙o⊙)…</p>]]></content>
-      
-      
+<search>
+  <entry>
+    <title>(⊙o⊙)…</title>
+    <url>/2020/08/23/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>(⊙o⊙)…</p>
+]]></content>
       <categories>
-          
-          <category> 其他 </category>
-          
+        <category>其他</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 其他 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-  
-  
+      <tags>
+        <tag>其他</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>解决VMware Unlocker无法下载darwin.iso的问题</title>
+    <url>/2021/08/04/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>之前装了Windows11,结果搞黑苹果虚拟机时发现Apple Mac OS X选项没了…</p>
+<p>于是我用最快速度找到<strong>MK-unlocker</strong>并下载</p>
+<p>然后在Getting VMware Tools中pip下载超时</p>
+<p>重试后一直找不到正确地址</p>
+<p><img src="/img/pic-1.png" alt="pic-1"></p>
+<p>迫不得已,我亲自到网站找到了它的下载方式↓</p>
+<p><img src="/img/pic-2.png" alt="image"></p>
+<p>经过无数努力和尝试最终找到VMware Fusion的最新软件包</p>
+<p><img src="/img/pic-3.png" alt="image-20210804175755306"></p>
+<p>下载后,我发现MK-unlocker突然好使了</p>
+<p><em>下载好的tools文件夹如图</em></p>
+<p><img src="/img/pic-4.png" alt="image-20210804180030561"></p>
+<p>进软件包一搜,就会发现实际上就用这么几个文件</p>
+<p><img src="/img/pic-5.png" alt="image-20210804180345558"></p>
+<p>就这两个镜像文件有用</p>
+<p><img src="/img/pic-6.png" alt="image-20210804180418057"></p>
+<p>把文件解压到tools文件夹就可以正常使用</p>
+<p>凭借微薄的Python基础稍微改动gettools.py弄的unlocker</p>
+<p>如有需要提供修改后unlocker下载:</p>
+<p><a href="https://wwr.lanzoui.com/ieIShs89vsj">蓝奏云</a></p>
+<p>备用<a href="http://yty2006.top:5212/s/Wwcd">cloudreve</a> 密码:unlocker</p>
+<p><del><strong>是时候清理一下网站落的灰了[手动狗头]</strong></del></p>
+]]></content>
+      <categories>
+        <category>黑苹果</category>
+      </categories>
+      <tags>
+        <tag>黑苹果</tag>
+      </tags>
+  </entry>
 </search>
