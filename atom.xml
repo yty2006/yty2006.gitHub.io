@@ -6,7 +6,7 @@
   <link href="https://yty2006.github.io/atom.xml" rel="self"/>
   
   <link href="https://yty2006.github.io/"/>
-  <updated>2020-11-14T05:31:09.670Z</updated>
+  <updated>2020-10-07T03:47:22.314Z</updated>
   <id>https://yty2006.github.io/</id>
   
   <author>
@@ -15,28 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>V2ray for Mac</title>
-    <link href="https://yty2006.github.io/v2rayshuoming/"/>
-    <id>https://yty2006.github.io/v2rayshuoming/</id>
-    <published>2020-10-08T03:21:41.000Z</published>
-    <updated>2020-11-14T05:31:09.670Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>打开V2rayU.dmg</p><p><img src="/img/0.png" alt="0"></p><p>打开并拖拽到applications中后,点击上方图标,点击订阅设置</p><p><img src="img/1.png" alt="1"></p><p>添加订阅,链接:<a href="https://bulink.xyz/api/subscribe/?token=irfej&amp;sub_type=vmess">https://bulink.xyz/api/subscribe/?token=irfej&amp;sub_type=vmess</a> ,名字随便</p><p><img src="/img/4.png" alt="4"></p><p><img src="/img/5.png" alt="5"></p><p>更新订阅</p><p><img src="/img/6.png" alt="6"></p><p>选择服务器</p><p><img src="/img/7.png" alt="7"></p><p>打开需要翻墙的网站,如果没成功,多试试别的服务器(毕竟免费节点速度慢)</p><p><img src="/img/8.png" alt="8"></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
-      
-    
-    
-    
-    
-    <category term="V2ray" scheme="https://yty2006.github.io/tags/V2ray/"/>
-    
-  </entry>
   
   <entry>
     <title>(⊙o⊙)…</title>
