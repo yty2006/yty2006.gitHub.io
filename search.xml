@@ -51,10 +51,8 @@
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><ul>
 <li><h2 id="想了解我吗？【ABOUT-ME】"><a href="#想了解我吗？【ABOUT-ME】" class="headerlink" title="想了解我吗？【ABOUT ME】"></a>想了解我吗？【ABOUT ME】</h2><p>本人诚实肯干，动手与学习能力强，能吃苦耐劳，对工作认真负责，性格较为内向，诚恳，虚心好，有耐 心，易沟通，有一定组织与管理能力、枳极地参加各种社会活动。</p>
 </li>
-<li><h2 id="我的经验【EXPERIENCE】"><a href="#我的经验【EXPERIENCE】" class="headerlink" title="我的经验【EXPERIENCE】"></a>我的经验【EXPERIENCE】</h2></li>
-</ul>
-<p>用 CSS and HTML搭建博客:<a href="https://www.yty2006.top/">https://www.yty2006.top</a>，安装超过50次黑苹果（包括虚拟机中的），分享代码和经验，折腾各种系统。</p>
-<ul>
+<li><h2 id="我的经验【EXPERIENCE】"><a href="#我的经验【EXPERIENCE】" class="headerlink" title="我的经验【EXPERIENCE】"></a>我的经验【EXPERIENCE】</h2><p>用 CSS and HTML搭建博客:<a href="https://www.yty2006.top/">https://www.yty2006.top</a>，安装超过50次黑苹果（包括虚拟机中的），      分享代码和经验，折腾各种系统。</p>
+</li>
 <li><h2 id="我的技能【WHAT-I-DO】"><a href="#我的技能【WHAT-I-DO】" class="headerlink" title="我的技能【WHAT I DO】"></a>我的技能【WHAT I DO】</h2><p>精通黑苹果[Hackintosh]安装及OpenCore与Clover引导，精通HTML、CSS+DIV、XHTML、C++、 C#、PHP、SQL;目前自学：Javascript、Actions、kotlin、Python、Java。</p>
 </li>
 </ul>
