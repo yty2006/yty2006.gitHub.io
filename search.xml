@@ -1,70 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>关于我</title>
-      <link href="2021/08/13/"/>
-      <url>2021/08/13/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><ul><li><h2 id="想了解我吗？【ABOUT-ME】"><a href="#想了解我吗？【ABOUT-ME】" class="headerlink" title="想了解我吗？【ABOUT ME】"></a>想了解我吗？【ABOUT ME】</h2><p>本人诚实肯干，动手与学习能力强，能吃苦耐劳，对工作认真负责，性格较为内向，诚恳，虚心好，有耐 心，易沟通，有一定组织与管理能力、枳极地参加各种社会活动。</p></li><li><h2 id="我的经验【EXPERIENCE】"><a href="#我的经验【EXPERIENCE】" class="headerlink" title="我的经验【EXPERIENCE】"></a>我的经验【EXPERIENCE】</h2><p>用 CSS and HTML搭建博客:<a href="https://www.yty2006.top/">https://www.yty2006.top</a>，安装超过50次黑苹果（包括虚拟机中的），      分享代码和经验，折腾各种系统。</p></li><li><h2 id="我的技能【WHAT-I-DO】"><a href="#我的技能【WHAT-I-DO】" class="headerlink" title="我的技能【WHAT I DO】"></a>我的技能【WHAT I DO】</h2><p>精通黑苹果[Hackintosh]安装及OpenCore与Clover引导，精通HTML、CSS+DIV、XHTML、C++、 C#、PHP、SQL;目前自学：Javascript、Actions、kotlin、Python、Java。</p></li></ul>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>解决VMware Unlocker无法下载darwin.iso的问题</title>
-      <link href="2021/08/04/"/>
-      <url>2021/08/04/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>之前装了Windows11,结果搞黑苹果虚拟机时发现Apple Mac OS X选项没了…</p><p>于是我用最快速度找到<strong>MK-unlocker</strong>并下载</p><p>然后在Getting VMware Tools中pip下载超时</p><p>重试后一直找不到正确地址</p><p><img src="/img/pic-1.png" alt="pic-1"></p><p>迫不得已,我亲自到网站找到了它的下载方式↓</p><p><img src="/img/pic-2.png" alt="image"></p><p>经过无数努力和尝试最终找到VMware Fusion的最新软件包</p><p><img src="/img/pic-3.png" alt="image-20210804175755306"></p><p>下载后,我发现MK-unlocker突然好使了</p><p><em>下载好的tools文件夹如图</em></p><p><img src="/img/pic-4.png" alt="image-20210804180030561"></p><p>进软件包一搜,就会发现实际上就用这么几个文件</p><p><img src="/img/pic-5.png" alt="image-20210804180345558"></p><p>就这两个镜像文件有用</p><p><img src="/img/pic-6.png" alt="image-20210804180418057"></p><p>把文件解压到tools文件夹就可以正常使用</p><p>凭借微薄的Python基础稍微改动gettools.py弄的unlocker</p><p>如有需要提供修改后unlocker下载:</p><p><a href="https://wwr.lanzoui.com/ieIShs89vsj">蓝奏云</a></p><p>备用<a href="http://yty2006.top:5212/s/Wwcd">cloudreve</a> 密码:unlocker</p><p><del><strong>是时候清理一下网站落的灰了[手动狗头]</strong></del></p>]]></content>
-      
-      
+<search>
+  <entry>
+    <title>(⊙o⊙)…</title>
+    <url>/2020/08/23/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>(⊙o⊙)…</p>
+]]></content>
       <categories>
-          
-          <category> 黑苹果 </category>
-          
+        <category>其他</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 黑苹果 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>(⊙o⊙)…</title>
-      <link href="2020/08/23/"/>
-      <url>2020/08/23/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>(⊙o⊙)…</p>]]></content>
-      
-      
+      <tags>
+        <tag>其他</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于我</title>
+    <url>/2021/08/13/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><ul>
+<li><h2 id="想了解我吗？【ABOUT-ME】"><a href="#想了解我吗？【ABOUT-ME】" class="headerlink" title="想了解我吗？【ABOUT ME】"></a>想了解我吗？【ABOUT ME】</h2><p>本人诚实肯干，动手与学习能力强，能吃苦耐劳，对工作认真负责，性格较为内向，诚恳，虚心好，有耐 心，易沟通，有一定组织与管理能力、枳极地参加各种社会活动。</p>
+</li>
+<li><h2 id="我的经验【EXPERIENCE】"><a href="#我的经验【EXPERIENCE】" class="headerlink" title="我的经验【EXPERIENCE】"></a>我的经验【EXPERIENCE】</h2><p>用 CSS and HTML搭建博客:<a href="https://www.yty2006.top/">https://www.yty2006.top</a>，安装超过50次黑苹果（包括虚拟机中的），      分享代码和经验，折腾各种系统。</p>
+</li>
+<li><h2 id="我的技能【WHAT-I-DO】"><a href="#我的技能【WHAT-I-DO】" class="headerlink" title="我的技能【WHAT I DO】"></a>我的技能【WHAT I DO】</h2><p>精通黑苹果[Hackintosh]安装及OpenCore与Clover引导，精通HTML、CSS+DIV、XHTML、C++、 C#、PHP、SQL;目前自学：Javascript、Actions、kotlin、Python、Java。</p>
+</li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
+    <title>解决VMware Unlocker无法下载darwin.iso的问题</title>
+    <url>/2021/08/04/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>之前装了Windows11,结果搞黑苹果虚拟机时发现Apple Mac OS X选项没了…</p>
+<p>于是我用最快速度找到<strong>MK-unlocker</strong>并下载</p>
+<p>然后在Getting VMware Tools中pip下载超时</p>
+<p>重试后一直找不到正确地址</p>
+<p><img src="/img/pic-1.png" alt="pic-1"></p>
+<p>迫不得已,我亲自到网站找到了它的下载方式↓</p>
+<p><img src="/img/pic-2.png" alt="image"></p>
+<p>经过无数努力和尝试最终找到VMware Fusion的最新软件包</p>
+<p><img src="/img/pic-3.png" alt="image-20210804175755306"></p>
+<p>下载后,我发现MK-unlocker突然好使了</p>
+<p><em>下载好的tools文件夹如图</em></p>
+<p><img src="/img/pic-4.png" alt="image-20210804180030561"></p>
+<p>进软件包一搜,就会发现实际上就用这么几个文件</p>
+<p><img src="/img/pic-5.png" alt="image-20210804180345558"></p>
+<p>就这两个镜像文件有用</p>
+<p><img src="/img/pic-6.png" alt="image-20210804180418057"></p>
+<p>把文件解压到tools文件夹就可以正常使用</p>
+<p>凭借微薄的Python基础稍微改动gettools.py弄的unlocker</p>
+<p>如有需要提供修改后unlocker下载:</p>
+<p><a href="https://wwr.lanzoui.com/ieIShs89vsj">蓝奏云</a></p>
+<p>备用<a href="http://yty2006.top:5212/s/Wwcd">cloudreve</a> 密码:unlocker</p>
+<p><del><strong>是时候清理一下网站落的灰了[手动狗头]</strong></del></p>
+]]></content>
       <categories>
-          
-          <category> 其他 </category>
-          
+        <category>黑苹果</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 其他 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-  
-  
+      <tags>
+        <tag>黑苹果</tag>
+      </tags>
+  </entry>
 </search>
