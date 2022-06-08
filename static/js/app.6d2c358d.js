@@ -1111,7 +1111,7 @@
                         lang: ""
                     },
                     gravatarConfig: {
-                        cdn: "https://www.gravatar.com/avatar",
+                        cdn: "https://cravatar.cn/avatar",
                         ds: ["mp", "identicon", "monsterid", "wavatar", "robohash", "retro", ""],
                         params: "",
                         url: ""
