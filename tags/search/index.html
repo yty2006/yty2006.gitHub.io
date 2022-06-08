@@ -1,5 +1,5 @@
 <!DOCTYPE html><html lang="en">
-<head><!-- hexo injector head_begin start --><meta name="author" content="Tianyang"></meta><!-- hexo injector head_begin end -->
+<head><!-- hexo injector head_begin start --><meta name="description" content="simple & elegant"></meta><meta name="keywords" content="闫天阳"></meta><meta name="author" content="Tianyang"></meta><!-- hexo injector head_begin end -->
 <script id="config">
 window.config = {"fireworks":{"colors":null}};
 </script>
