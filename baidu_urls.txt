@@ -1,1 +1,1 @@
-http://example.com/post/hello-world.html
+https://www.tianyang.life/post/hello-world.html
