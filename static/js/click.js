@@ -1,1 +1,134 @@
-function P(e){let s=["102, 167, 221","62, 131, 225","33, 78, 194"];e=Object.assign({colors:s,numberOfParticules:20,orbitRadius:{min:50,max:100},circleRadius:{min:10,max:20},diffuseRadius:{min:50,max:100},animeDuration:{min:900,max:1500}},e);let u=0,l=0,c=e.colors||s,o=document.querySelector(".fireworks"),t=o.getContext("2d");function m(n){n.width=window.innerWidth,n.height=window.innerHeight,n.style.width=`${window.innerWidth}px`,n.style.height=`${window.innerHeight}px`}function h(n){u=n.clientX||(n.touches[0]?n.touches[0].clientX:n.changedTouches[0].clientX),l=n.clientY||(n.touches[0]?n.touches[0].clientY:n.changedTouches[0].clientY)}function f(n){let a=window.anime.random(0,360)*Math.PI/180,i=window.anime.random(e.diffuseRadius.min,e.diffuseRadius.max),d=[-1,1][window.anime.random(0,1)]*i;return{x:n.x+d*Math.cos(a),y:n.y+d*Math.sin(a)}}function x(n,a){let i={x:n,y:a,color:`rgba(${c[window.anime.random(0,c.length-1)]},${window.anime.random(.2,.8)})`,radius:window.anime.random(e.circleRadius.min,e.circleRadius.max),endPos:null,draw(){}};return i.endPos=f(i),i.draw=function(){t.beginPath(),t.arc(i.x,i.y,i.radius,0,2*Math.PI,!0),t.fillStyle=i.color,t.fill()},i}function b(n,a){let i={x:n,y:a,color:"#000",radius:.1,alpha:.5,lineWidth:6,draw(){}};return i.draw=function(){t.globalAlpha=i.alpha,t.beginPath(),t.arc(i.x,i.y,i.radius,0,2*Math.PI,!0),t.lineWidth=i.lineWidth,t.strokeStyle=i.color,t.stroke(),t.globalAlpha=1},i}function w(n){for(let a=0;a<n.animatables.length;a++)n.animatables[a].target.draw()}function g(n,a){let i=b(n,a),d=[];for(let r=0;r<e.numberOfParticules;r++)d.push(x(n,a));window.anime.timeline().add({targets:d,x(r){return r.endPos.x},y(r){return r.endPos.y},radius:.1,duration:window.anime.random(e.animeDuration.min,e.animeDuration.max),easing:"easeOutExpo",update:w}).add({targets:i,radius:window.anime.random(e.orbitRadius.min,e.orbitRadius.max),lineWidth:0,alpha:{value:0,easing:"linear",duration:window.anime.random(600,800)},duration:window.anime.random(1200,1800),easing:"easeOutExpo",update:w},0)}let p=window.anime({duration:1/0,update:()=>{t.clearRect(0,0,o.width,o.height)}});document.addEventListener("mousedown",n=>{p.play(),h(n),g(u,l)},!1),m(o),window.addEventListener("resize",()=>{m(o)},!1)}document.addEventListener("DOMContentLoaded",()=>{let e={};window.CONFIG.fireworks.colors&&(e.colors=window.CONFIG.fireworks.colors),P(e)});
+function clickEffect() {
+  let balls = [];
+  let longPressed = false;
+  let longPress;
+  let multiplier = 0;
+  let width, height;
+  let origin;
+  let normal;
+  let ctx;
+  const colours = ["#F73859", "#14FFEC", "#00E0FF", "#FF99FE", "#FAF15D"];
+  const canvas = document.createElement("canvas");
+  document.body.appendChild(canvas);
+  canvas.setAttribute("style", "width: 100%; height: 100%; top: 0; left: 0; z-index: 99999; position: fixed; pointer-events: none;");
+  const pointer = document.createElement("span");
+  pointer.classList.add("pointer");
+  document.body.appendChild(pointer);
+ 
+  if (canvas.getContext && window.addEventListener) {
+    ctx = canvas.getContext("2d");
+    updateSize();
+    window.addEventListener('resize', updateSize, false);
+    loop();
+    window.addEventListener("mousedown", function(e) {
+      pushBalls(randBetween(10, 20), e.clientX, e.clientY);
+      document.body.classList.add("is-pressed");
+      longPress = setTimeout(function(){
+        document.body.classList.add("is-longpress");
+        longPressed = true;
+      }, 500);
+    }, false);
+    window.addEventListener("mouseup", function(e) {
+      clearInterval(longPress);
+      if (longPressed == true) {
+        document.body.classList.remove("is-longpress");
+        pushBalls(randBetween(50 + Math.ceil(multiplier), 100 + Math.ceil(multiplier)), e.clientX, e.clientY);
+        longPressed = false;
+      }
+      document.body.classList.remove("is-pressed");
+    }, false);
+    window.addEventListener("mousemove", function(e) {
+      let x = e.clientX;
+      let y = e.clientY;
+      pointer.style.top = y + "px";
+      pointer.style.left = x + "px";
+    }, false);
+  } else {
+    console.log("canvas or addEventListener is unsupported!");
+  }
+ 
+ 
+  function updateSize() {
+    canvas.width = window.innerWidth * 2;
+    canvas.height = window.innerHeight * 2;
+    canvas.style.width = window.innerWidth + 'px';
+    canvas.style.height = window.innerHeight + 'px';
+    ctx.scale(2, 2);
+    width = (canvas.width = window.innerWidth);
+    height = (canvas.height = window.innerHeight);
+    origin = {
+      x: width / 2,
+      y: height / 2
+    };
+    normal = {
+      x: width / 2,
+      y: height / 2
+    };
+  }
+  class Ball {
+    constructor(x = origin.x, y = origin.y) {
+      this.x = x;
+      this.y = y;
+      this.angle = Math.PI * 2 * Math.random();
+      if (longPressed == true) {
+        this.multiplier = randBetween(14 + multiplier, 15 + multiplier);
+      } else {
+        this.multiplier = randBetween(6, 12);
+      }
+      this.vx = (this.multiplier + Math.random() * 0.5) * Math.cos(this.angle);
+      this.vy = (this.multiplier + Math.random() * 0.5) * Math.sin(this.angle);
+      this.r = randBetween(8, 12) + 3 * Math.random();
+      this.color = colours[Math.floor(Math.random() * colours.length)];
+    }
+    update() {
+      this.x += this.vx - normal.x;
+      this.y += this.vy - normal.y;
+      normal.x = -2 / window.innerWidth * Math.sin(this.angle);
+      normal.y = -2 / window.innerHeight * Math.cos(this.angle);
+      this.r -= 0.3;
+      this.vx *= 0.9;
+      this.vy *= 0.9;
+    }
+  }
+ 
+  function pushBalls(count = 1, x = origin.x, y = origin.y) {
+    for (let i = 0; i < count; i++) {
+      balls.push(new Ball(x, y));
+    }
+  }
+ 
+  function randBetween(min, max) {
+    return Math.floor(Math.random() * max) + min;
+  }
+ 
+  function loop() {
+    ctx.fillStyle = "rgba(255, 255, 255, 0)";
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    for (let i = 0; i < balls.length; i++) {
+      let b = balls[i];
+      if (b.r < 0) continue;
+      ctx.fillStyle = b.color;
+      ctx.beginPath();
+      ctx.arc(b.x, b.y, b.r, 0, Math.PI * 2, false);
+      ctx.fill();
+      b.update();
+    }
+    if (longPressed == true) {
+      multiplier += 0.2;
+    } else if (!longPressed && multiplier >= 0) {
+      multiplier -= 0.4;
+    }
+    removeBall();
+    requestAnimationFrame(loop);
+  }
+ 
+  function removeBall() {
+    for (let i = 0; i < balls.length; i++) {
+      let b = balls[i];
+      if (b.x + b.r < 0 || b.x - b.r > width || b.y + b.r < 0 || b.y - b.r > height || b.r < 0) {
+        balls.splice(i, 1);
+      }
+    }
+  }
+}
+clickEffect();//调用特效函数
