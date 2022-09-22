@@ -4,7 +4,7 @@
   <url>
     <loc>https://www.tianyang.life/post/Crafting.html</loc>
     
-    <lastmod>2022-09-21</lastmod>
+    <lastmod>2022-09-22</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -56,6 +56,15 @@
   </url>
   
   <url>
+    <loc>https://www.tianyang.life/post/hello-world.html</loc>
+    
+    <lastmod>2022-06-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.tianyang.life/post/bcd%E5%91%BD%E4%BB%A4%E7%9A%84%E7%94%A8%E6%B3%95.html</loc>
     
     <lastmod>2022-06-07</lastmod>
@@ -66,15 +75,6 @@
   
   <url>
     <loc>https://www.tianyang.life/post/%E2%8A%99o%E2%8A%99-%E2%80%A6.html</loc>
-    
-    <lastmod>2022-06-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.tianyang.life/post/hello-world.html</loc>
     
     <lastmod>2022-06-07</lastmod>
     
@@ -166,7 +166,7 @@
 
   <url>
     <loc>https://www.tianyang.life/</loc>
-    <lastmod>2022-09-21</lastmod>
+    <lastmod>2022-09-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -174,42 +174,42 @@
   
   <url>
     <loc>https://www.tianyang.life/tags/cmd/</loc>
-    <lastmod>2022-09-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.tianyang.life/tags/%E5%85%B6%E4%BB%96/</loc>
-    <lastmod>2022-09-21</lastmod>
+    <lastmod>2022-09-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.tianyang.life/tags/Minecraft-%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
-    <lastmod>2022-09-21</lastmod>
+    <lastmod>2022-09-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.tianyang.life/tags/Math/</loc>
-    <lastmod>2022-09-21</lastmod>
+    <lastmod>2022-09-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.tianyang.life/tags/%E9%BB%91%E8%8B%B9%E6%9E%9C/</loc>
-    <lastmod>2022-09-21</lastmod>
+    <loc>https://www.tianyang.life/tags/%E5%85%B6%E4%BB%96/</loc>
+    <lastmod>2022-09-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.tianyang.life/tags/%E7%89%A9%E7%90%86/</loc>
-    <lastmod>2022-09-21</lastmod>
+    <lastmod>2022-09-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.tianyang.life/tags/%E9%BB%91%E8%8B%B9%E6%9E%9C/</loc>
+    <lastmod>2022-09-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -218,28 +218,28 @@
   
   <url>
     <loc>https://www.tianyang.life/categories/Windows/</loc>
-    <lastmod>2022-09-21</lastmod>
+    <lastmod>2022-09-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.tianyang.life/categories/%E5%85%B6%E4%BB%96/</loc>
-    <lastmod>2022-09-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.tianyang.life/categories/%E9%BB%91%E8%8B%B9%E6%9E%9C/</loc>
-    <lastmod>2022-09-21</lastmod>
+    <lastmod>2022-09-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.tianyang.life/categories/%E7%89%A9%E7%90%86/</loc>
-    <lastmod>2022-09-21</lastmod>
+    <lastmod>2022-09-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.tianyang.life/categories/%E9%BB%91%E8%8B%B9%E6%9E%9C/</loc>
+    <lastmod>2022-09-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
