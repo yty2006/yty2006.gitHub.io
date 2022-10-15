@@ -14,8 +14,8 @@ https://www.tianyang.life/tags/index.html
 https://www.tianyang.life/music/index.html
 https://www.tianyang.life/lib/canvas-ribbon/README.html
 https://www.tianyang.life/friends/index.html
-https://www.tianyang.life/categories/index.html
 https://www.tianyang.life/contact/index.html
+https://www.tianyang.life/categories/index.html
 https://www.tianyang.life/404.html
 https://www.tianyang.life/
 https://www.tianyang.life/tags/cmd/
