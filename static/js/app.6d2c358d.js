@@ -8053,7 +8053,7 @@
         Ja(Qa),
         Object(Ya["registerScrollSpy"])(Qa),
         Qa.mount("#app"),
-        console.log("%c Tianyang's Console", "background:#24272A; color:#73ddd7", "", "https://www.tianyang.life")
+        console.log("%c Tianyang's Console", "background:#24272A; color:#73ddd7", "", "https://tianyang.life")
     },
 
     cee3: function(e, t, n) {
